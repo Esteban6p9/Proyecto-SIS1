@@ -38,9 +38,6 @@
                         {{ $message }}
                     @enderror
                 </div>
-                <div class="links">
-                    <a href="{{ route('register') }}">¿No tienes cuenta? Regístrate</a>
-                </div>
                 <div class="inputBox">
                     <input type="submit" value="Login" id="loginBtn">
                     <div class="loader" id="loader"></div>

@@ -10,7 +10,3 @@ Route::post('/login', [LoginController::class, 'login'])->name('login.post');
 Route::get('/dashboard', function () {
     return view('stats.dashboard');
 })->name('dashboard');
-
-Route::get('/register', function () {
-    return view('auth.register');
-})->name('register');

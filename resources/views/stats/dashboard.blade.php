@@ -143,7 +143,6 @@
                 <button>See all <span class="las.la-arrow-right"></span></button>
             </div>
             <div class="card-body">
-                {{-- (Repetí el primer cliente como ejemplo para el resto) --}}
                 @for ($i = 0; $i < 6; $i++)
                 <div class="customer">
                     <div class="info">
